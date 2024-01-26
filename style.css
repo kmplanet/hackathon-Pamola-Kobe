@@ -1,0 +1,41 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    background-color: rgb(219, 219, 238);
+    text-align: center;
+    width: 350px;
+    height: 280px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#quote {
+    padding: 10px;
+}
+
+img {
+    padding-top: 10px;
+    width: 4rem;
+}
+
+button {
+    background-color: #007bff;
+    width: 35%;
+    height: 2rem;
+    border-style: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    padding: 0px 10px;
+    transition: 0.1s;
+}
+
+button {
+    color: #fff;
+    font-size: medium;
+}
+button:hover {
+    background-color: #4ba0fa;
+    /* color: white; */
+  }
