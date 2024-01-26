@@ -1,0 +1,15 @@
+{
+    "name": "Paloma & Kobe Daily Quote app",
+    "version": "1.0.0",
+    "description": "Get inspiration everyday",
+    "manifest_version": 3,
+    "icons": {
+        "128": "128.png"
+        },
+    "author": "Paloma & Kobe",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Daily Quote!"
+    
+    }
+}
