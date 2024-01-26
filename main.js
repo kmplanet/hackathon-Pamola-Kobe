@@ -4,4 +4,8 @@ async function fetchData() {
     document.getElementById("quote").innerHTML=record.content;
     document.getElementById("author").innerHTML=record.author;
 }
+//Add functionality to the button
+const button = document.getElementById('newQuoteButton');
+button.addEventListener('click', fetchData);
+
 fetchData();
