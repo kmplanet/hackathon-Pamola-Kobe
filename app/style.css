@@ -1,18 +1,23 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-}
+    color: white;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px pink;}
 
 .container {
-    background-color: rgb(219, 219, 238);
+    /* background-color: rgb(219, 219, 238); */
     text-align: center;
     width: 350px;
     height: 280px;
     margin: 10px;
     padding: 10px;
+    border-radius: 25px;
+    background-image: url("https://picsum.photos/380/300?grayscale");
 }
 
 #quote {
     padding: 10px;
+    font-size: large;
 }
 
 img {
